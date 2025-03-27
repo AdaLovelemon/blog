@@ -3,7 +3,7 @@ title: Week 1
 published: 2025-03-11
 tags: [Study, Blogs, Coding]
 category: Study Logs
-draft: true
+draft: false
 image: cover.jpg
 ---
 
