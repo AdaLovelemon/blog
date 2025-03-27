@@ -38,6 +38,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       
+      - name: Update Astro config
+        run: |
+          if ! grep -q "base:" astro.config.mjs; then
+            sed -i "/defineConfig/a\\  base: '/blog'," astro.config.mjs
+          fi
+          if ! grep -q "site:" astro.config.mjs; then
+            sed -i "/defineConfig/a\\  site: 'https://adalovelemon.github.io'," astro.config.mjs
+          fi
+      
       - name: Build Astro site
         run: pnpm build
       
