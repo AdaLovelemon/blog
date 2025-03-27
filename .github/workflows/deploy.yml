@@ -20,9 +20,9 @@ jobs:
         cache: 'pnpm'
 
     - name: Install pnpm
-      run: |
-        npm install -g pnpm
-        echo "::add-path::$(npm bin -g)"
+      uses: pnpm/action-setup@v2
+      with:
+        version: 8
 
     - name: Install dependencies
       run: pnpm install && pnpm add sharp
