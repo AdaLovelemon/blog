@@ -1,7 +1,7 @@
 ---
 title: Week 1
 published: 2025-03-11
-tags: [Study, Blogs, Coding]
+tags: [Daily]
 category: Study Logs
 draft: false
 image: cover.jpg
@@ -124,12 +124,4 @@ $$旋转向量 \quad
 v = \theta u
 $$
 当$\theta \rightarrow 0$ 和 $\theta \rightarrow \pi$ 时，存在特殊情况
-
-****
-# ✨心得体会
-
-
-
-****
-# 🧭目标规划
 
